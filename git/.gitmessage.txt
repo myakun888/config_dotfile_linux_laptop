@@ -1,0 +1,33 @@
+
+# ============================================================
+# TEMPLATE PESAN COMMIT GIT
+# Mengikuti format: <type>(<scope>): <short summary>
+# ============================================================
+
+<type>(<scope>): <short summary>
+
+<body>
+
+<footer>
+
+# ============================================================
+# Panduan:
+#
+# <type>  = feat | fix | docs | style | refactor | perf | test | build | ci | chore | revert
+# <scope> = (opsional) modul, fitur, atau file yang diubah
+# <short summary> = deskripsi singkat (maks. 50 karakter, tanpa titik)
+#
+# Body (opsional): penjelasan singkat tentang alasan atau cara perubahan
+# Footer (opsional): Closes #id_issue atau BREAKING CHANGE:
+#
+# ============================================================
+# Contoh:
+#
+# feat(auth): tambah fitur login JWT
+#
+# Menambahkan middleware autentikasi JWT.
+# Token dikirim melalui header Authorization.
+#
+# Closes #42
+#
+# ============================================================

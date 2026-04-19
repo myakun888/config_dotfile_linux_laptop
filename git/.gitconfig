@@ -1,0 +1,28 @@
+[user]
+	name = muhammad fajrin
+	email = fajrinsaputra7@gmail.com
+[core]
+#ganti vim / nvim , jika ingin di ubah
+	editor = nvim 
+# ini untuk code
+# editor = code --wait
+[init]
+	defaultBranch = main
+[difftool]
+	prompt = false
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+	cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+#jika ingin merubah menjadi vim/nvim , ubah value cmd nya menjadi vim/nvim contoh di bawah
+
+# vim -d \"$LOCAL\" \"$REMOTE\"
+# nvim -d \"$LOCAL\" \"$REMOTE\"
+
+# difftool.default-difftool.cmd=nvim -d "$LOCAL" "$REMOTE"
+[commit]
+	template = /home/dianwisora/.gitmessage.txt
+
+
+# atau kalau mau cli silahkan lihat di git cli nya, jalankan perintah `git config 'nya
+# pengaturan di file ini adalah pengaturan secara global, jika ingi local , silahkan config di folder masing masing tanpa parameter global
