@@ -77,7 +77,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git sudo docker docker-compose golang node nvm mongocli fzf emoji emoji-clock zsh-autosuggestions zsh-syntax-highlighting)
-plugins=(git sudo docker fzf emoji zsh-autosuggestions zsh-syntax-highlighting vi-mode command-not-found extract pass)
+plugins=(git sudo docker fzf emoji zsh-autosuggestions zsh-syntax-highlighting vi-mode command-not-found extract pass taskwarrior)
 # kusus zsh-autosuggestions dan zsh-syntax-highlighting, pastikan selalu di posisi belakang agar optimal
 
 source $ZSH/oh-my-zsh.sh
